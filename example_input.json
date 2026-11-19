@@ -1,0 +1,58 @@
+{
+  "user_info": {
+    "user_id": 1001,
+    "age": 27,
+    "occupation": "student"
+  },
+  "history_items": [
+    {
+      "item_id": 11,
+      "title": "Toy Story",
+      "genre": "Animation|Children",
+      "year": 1995
+    },
+    {
+      "item_id": 22,
+      "title": "Jumanji",
+      "genre": "Adventure|Children",
+      "year": 1995
+    }
+  ],
+  "candidate_items": [
+    {
+      "item_id": 31,
+      "title": "Grumpier Old Men",
+      "genre": "Comedy|Romance",
+      "year": 1995,
+      "score": 0.91
+    },
+    {
+      "item_id": 32,
+      "title": "Waiting to Exhale",
+      "genre": "Comedy|Drama",
+      "year": 1995,
+      "score": 0.84
+    },
+    {
+      "item_id": 33,
+      "title": "Father of the Bride Part II",
+      "genre": "Comedy",
+      "year": 1995,
+      "score": 0.79
+    },
+    {
+      "item_id": 34,
+      "title": "Heat",
+      "genre": "Action|Crime|Thriller",
+      "year": 1995,
+      "score": 0.76
+    },
+    {
+      "item_id": 35,
+      "title": "Sabrina",
+      "genre": "Comedy|Romance",
+      "year": 1995,
+      "score": 0.72
+    }
+  ]
+}

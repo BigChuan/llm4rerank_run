@@ -1,0 +1,878 @@
+{
+  "dataset": "ml-1m",
+  "model": "./models/llama-3.1-8b-instruct",
+  "num_samples": 30,
+  "num_fallback": 30,
+  "results": [
+    {
+      "user_id": 5239,
+      "candidate_item_ids": [
+        2442,
+        1777,
+        2231,
+        1711,
+        1441,
+        869,
+        2928,
+        3751,
+        3148,
+        3819
+      ],
+      "final_ranking": [
+        2442,
+        1777,
+        2231,
+        1711,
+        1441,
+        869,
+        2928,
+        3751,
+        3148,
+        3819
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 913,
+      "candidate_item_ids": [
+        1242,
+        1225,
+        2804,
+        592,
+        1377,
+        419,
+        19,
+        3793,
+        170,
+        2797
+      ],
+      "final_ranking": [
+        1242,
+        1225,
+        2804,
+        592,
+        1377,
+        419,
+        19,
+        3793,
+        170,
+        2797
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 205,
+      "candidate_item_ids": [
+        3462,
+        527,
+        2973,
+        3811,
+        1267,
+        943,
+        3196,
+        318,
+        1221,
+        1617
+      ],
+      "final_ranking": [
+        3462,
+        527,
+        2973,
+        3811,
+        1267,
+        943,
+        3196,
+        318,
+        1221,
+        1617
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 2254,
+      "candidate_item_ids": [
+        2115,
+        1573,
+        3527,
+        2985,
+        2993,
+        2427,
+        349,
+        2006,
+        89,
+        3763
+      ],
+      "final_ranking": [
+        2115,
+        1573,
+        3527,
+        2985,
+        2993,
+        2427,
+        349,
+        2006,
+        89,
+        3763
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 2007,
+      "candidate_item_ids": [
+        3741,
+        2028,
+        2804,
+        1956,
+        1213,
+        3201,
+        3499,
+        2064,
+        549,
+        1797
+      ],
+      "final_ranking": [
+        3741,
+        2028,
+        2804,
+        1956,
+        1213,
+        3201,
+        3499,
+        2064,
+        549,
+        1797
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 1829,
+      "candidate_item_ids": [
+        608,
+        1529,
+        3160,
+        1912,
+        593,
+        1617,
+        1358,
+        319,
+        2762,
+        1089
+      ],
+      "final_ranking": [
+        608,
+        1529,
+        3160,
+        1912,
+        593,
+        1617,
+        1358,
+        319,
+        2762,
+        1089
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 1144,
+      "candidate_item_ids": [
+        1259,
+        3538,
+        1673,
+        1035,
+        2948,
+        480,
+        144,
+        1580,
+        3555,
+        3534
+      ],
+      "final_ranking": [
+        1259,
+        3538,
+        1673,
+        1035,
+        2948,
+        480,
+        144,
+        1580,
+        3555,
+        3534
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 6034,
+      "candidate_item_ids": [
+        2726,
+        541,
+        2186,
+        1260,
+        1267,
+        1284,
+        3334,
+        942,
+        1179,
+        2987
+      ],
+      "final_ranking": [
+        2726,
+        541,
+        2186,
+        1260,
+        1267,
+        1284,
+        3334,
+        942,
+        1179,
+        2987
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 840,
+      "candidate_item_ids": [
+        2639,
+        1372,
+        580,
+        1927,
+        3824,
+        2302,
+        2762,
+        950,
+        1561,
+        2070
+      ],
+      "final_ranking": [
+        2639,
+        1372,
+        580,
+        1927,
+        3824,
+        2302,
+        2762,
+        950,
+        1561,
+        2070
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 5544,
+      "candidate_item_ids": [
+        2762,
+        3052,
+        3176,
+        3186,
+        3157,
+        3081,
+        3156,
+        2995,
+        3113,
+        3578
+      ],
+      "final_ranking": [
+        2762,
+        3052,
+        3176,
+        3186,
+        3157,
+        3081,
+        3156,
+        2995,
+        3113,
+        3578
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 4468,
+      "candidate_item_ids": [
+        3801,
+        800,
+        910,
+        1278,
+        164,
+        1358,
+        1193,
+        3512,
+        2359,
+        2324
+      ],
+      "final_ranking": [
+        3801,
+        800,
+        910,
+        1278,
+        164,
+        1358,
+        1193,
+        3512,
+        2359,
+        2324
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 713,
+      "candidate_item_ids": [
+        364,
+        2099,
+        2135,
+        2746,
+        1031,
+        1088,
+        3612,
+        661,
+        1030,
+        1760
+      ],
+      "final_ranking": [
+        364,
+        2099,
+        2135,
+        2746,
+        1031,
+        1088,
+        3612,
+        661,
+        1030,
+        1760
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 4838,
+      "candidate_item_ids": [
+        3246,
+        1693,
+        3108,
+        477,
+        1747,
+        3255,
+        3271,
+        2236,
+        524,
+        3259
+      ],
+      "final_ranking": [
+        3246,
+        1693,
+        3108,
+        477,
+        1747,
+        3255,
+        3271,
+        2236,
+        524,
+        3259
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 3457,
+      "candidate_item_ids": [
+        47,
+        457,
+        3717,
+        3910,
+        3916,
+        3617,
+        501,
+        1411,
+        1266,
+        215
+      ],
+      "final_ranking": [
+        47,
+        457,
+        3717,
+        3910,
+        3916,
+        3617,
+        501,
+        1411,
+        1266,
+        215
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 261,
+      "candidate_item_ids": [
+        160,
+        505,
+        193,
+        2036,
+        15,
+        2153,
+        1381,
+        3705,
+        2568,
+        1389
+      ],
+      "final_ranking": [
+        160,
+        505,
+        193,
+        2036,
+        15,
+        2153,
+        1381,
+        3705,
+        2568,
+        1389
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 245,
+      "candidate_item_ids": [
+        903,
+        904,
+        942,
+        2467,
+        1086,
+        931,
+        1625,
+        1732,
+        1422,
+        1018
+      ],
+      "final_ranking": [
+        903,
+        904,
+        942,
+        2467,
+        1086,
+        931,
+        1625,
+        1732,
+        1422,
+        1018
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 768,
+      "candidate_item_ids": [
+        1837,
+        2336,
+        2710,
+        1673,
+        2329,
+        2687,
+        2686,
+        2028,
+        2628,
+        3911
+      ],
+      "final_ranking": [
+        1837,
+        2336,
+        2710,
+        1673,
+        2329,
+        2687,
+        2686,
+        2028,
+        2628,
+        3911
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 1792,
+      "candidate_item_ids": [
+        2006,
+        2424,
+        2496,
+        539,
+        361,
+        160,
+        608,
+        653,
+        2268,
+        2580
+      ],
+      "final_ranking": [
+        2006,
+        2424,
+        2496,
+        539,
+        361,
+        160,
+        608,
+        653,
+        2268,
+        2580
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 1906,
+      "candidate_item_ids": [
+        661,
+        2791,
+        1259,
+        480,
+        1171,
+        1965,
+        2291,
+        2657,
+        1580,
+        1035
+      ],
+      "final_ranking": [
+        661,
+        2791,
+        1259,
+        480,
+        1171,
+        1965,
+        2291,
+        2657,
+        1580,
+        1035
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 4140,
+      "candidate_item_ids": [
+        1339,
+        378,
+        1088,
+        1457,
+        1593,
+        3206,
+        2266,
+        276,
+        804,
+        64
+      ],
+      "final_ranking": [
+        1339,
+        378,
+        1088,
+        1457,
+        1593,
+        3206,
+        2266,
+        276,
+        804,
+        64
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 4932,
+      "candidate_item_ids": [
+        223,
+        2170,
+        125,
+        588,
+        3052,
+        1806,
+        2861,
+        348,
+        2700,
+        441
+      ],
+      "final_ranking": [
+        223,
+        2170,
+        125,
+        588,
+        3052,
+        1806,
+        2861,
+        348,
+        2700,
+        441
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 218,
+      "candidate_item_ids": [
+        2701,
+        3897,
+        3911,
+        3893,
+        3317,
+        3916,
+        3852,
+        3901,
+        3827,
+        3889
+      ],
+      "final_ranking": [
+        2701,
+        3897,
+        3911,
+        3893,
+        3317,
+        3916,
+        3852,
+        3901,
+        3827,
+        3889
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 4598,
+      "candidate_item_ids": [
+        1097,
+        930,
+        1079,
+        1950,
+        2949,
+        1270,
+        1012,
+        1954,
+        6,
+        911
+      ],
+      "final_ranking": [
+        1097,
+        930,
+        1079,
+        1950,
+        2949,
+        1270,
+        1012,
+        1954,
+        6,
+        911
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 1629,
+      "candidate_item_ids": [
+        1754,
+        165,
+        70,
+        10,
+        1356,
+        1377,
+        95,
+        1608,
+        316,
+        380
+      ],
+      "final_ranking": [
+        1754,
+        165,
+        70,
+        10,
+        1356,
+        1377,
+        95,
+        1608,
+        316,
+        380
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 5866,
+      "candidate_item_ids": [
+        1258,
+        1265,
+        3006,
+        3471,
+        1885,
+        1214,
+        2791,
+        1307,
+        678,
+        3476
+      ],
+      "final_ranking": [
+        1258,
+        1265,
+        3006,
+        3471,
+        1885,
+        1214,
+        2791,
+        1307,
+        678,
+        3476
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 5324,
+      "candidate_item_ids": [
+        3555,
+        2769,
+        3510,
+        3298,
+        3753,
+        3623,
+        3452,
+        3316,
+        3285,
+        3821
+      ],
+      "final_ranking": [
+        3555,
+        2769,
+        3510,
+        3298,
+        3753,
+        3623,
+        3452,
+        3316,
+        3285,
+        3821
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 5746,
+      "candidate_item_ids": [
+        2501,
+        1957,
+        1246,
+        32,
+        1682,
+        150,
+        1968,
+        1653,
+        1730,
+        508
+      ],
+      "final_ranking": [
+        2501,
+        1957,
+        1246,
+        32,
+        1682,
+        150,
+        1968,
+        1653,
+        1730,
+        508
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 4465,
+      "candidate_item_ids": [
+        3822,
+        2973,
+        1245,
+        1394,
+        1176,
+        1860,
+        1333,
+        3720,
+        1217,
+        2542
+      ],
+      "final_ranking": [
+        3822,
+        2973,
+        1245,
+        1394,
+        1176,
+        1860,
+        1333,
+        3720,
+        1217,
+        2542
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 3437,
+      "candidate_item_ids": [
+        678,
+        1207,
+        3189,
+        3481,
+        3911,
+        3948,
+        3052,
+        2908,
+        3897,
+        3831
+      ],
+      "final_ranking": [
+        678,
+        1207,
+        3189,
+        3481,
+        3911,
+        3948,
+        3052,
+        2908,
+        3897,
+        3831
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    },
+    {
+      "user_id": 1806,
+      "candidate_item_ids": [
+        2273,
+        204,
+        252,
+        329,
+        3450,
+        2699,
+        1552,
+        168,
+        3528,
+        2002
+      ],
+      "final_ranking": [
+        2273,
+        204,
+        252,
+        329,
+        3450,
+        2699,
+        1552,
+        168,
+        3528,
+        2002
+      ],
+      "error": "AttributeError: 'LLMClient' object has no attribute 'encode'",
+      "fallback": true
+    }
+  ]
+}
