@@ -1,6 +1,12 @@
-python run.py --input data/ml-1m-samples.json \
---output outputs/result.json --dataset ml-1m --model ./models/llama-3.1-8b-instruct \
---nodes diversity,accuracy,fairness,stop --user-features user_id,age,occupation \
---history-features item_id,title,genre,year --item-features item_id,title,genre,year,score \
---focus "Overall Performance" --history-max 20 --max-count 3 \
---top-k 10 --temperature 0.0 --max-tokens 2048 --max-retries 5
+python train_mlp.py \
+  --train-input data/ml-1m-pool-train.json \
+  --val-input data/ml-1m-pool-test.json \
+  --output-ckpt checkpoints/mlp_v2.pt \
+  --dataset ml-1m --model ./models/llama-3.1-8b-instruct \
+  --user-features user_id,age,occupation \
+  --history-features item_id,title,genre,year \
+  --item-features item_id,title,genre,year,score \
+  --history-max 20 --top-k 10 --preselect-ratio 3.0 \
+  --mlp-hidden 128 --mlp-layers 2 --mlp-lr 1e-3 \
+  --lambda-div 0.0 --diversity-temperature 0.2 \
+  --epochs 3 --log-every 1
